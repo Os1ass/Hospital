@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\fileHandlers">
+      <UniqueIdentifier>{d4edd6a3-f294-4719-b2dd-9247b4e02601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\FileHandlers">
+      <UniqueIdentifier>{fab90410-f067-4fa2-ac25-1338e5acceca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Users">
+      <UniqueIdentifier>{025d41e0-dbbf-4a89-88fb-9a82a4180a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Users">
+      <UniqueIdentifier>{44349ef8-b141-4a5c-9edb-451c75cd735f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="myHospital.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Disease.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandler.cpp">
+      <Filter>Исходные файлы\FileHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientFileHandler.cpp">
+      <Filter>Исходные файлы\FileHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="DoctorFileHandler.cpp">
+      <Filter>Исходные файлы\FileHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Исходные файлы\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>Исходные файлы\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Doctor.cpp">
+      <Filter>Исходные файлы\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Patient.cpp">
+      <Filter>Исходные файлы\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractMenu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchMenu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminFileHandler.cpp">
+      <Filter>Исходные файлы\FileHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Reception.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Disease.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminFileHandler.h">
+      <Filter>Файлы заголовков\fileHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHandler.h">
+      <Filter>Файлы заголовков\fileHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="PatientFileHandler.h">
+      <Filter>Файлы заголовков\fileHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="DoctorFileHandler.h">
+      <Filter>Файлы заголовков\fileHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>Файлы заголовков\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Doctor.h">
+      <Filter>Файлы заголовков\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Patient.h">
+      <Filter>Файлы заголовков\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Файлы заголовков\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMenu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchMenu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Reception.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
